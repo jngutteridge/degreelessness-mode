@@ -20,13 +20,16 @@ Configuration
 
 By default, it uses the following mapping:
 
-> `iddqd` -> `/wp-admin/index.php' or '/' if in `/wp-admin`
+> `iddqd` -> `/wp-admin/index.php` or `/` if in `/wp-admin`
+>
 > `iddt` -> `/`
 
 If the global variable `devhosts` is set, the following maps will also apply, modifying only the host fragment of the URL:
 
 > `idclip` -> `devhosts.local`
+>
 > `idkfa` -> `devhosts.dev`
+>
 > `idclev` -> `devhosts.live`
 
 The `devhosts` global variable can be set by adding the following JavaScript before loading the `degreelessness-mode.js` script:
@@ -45,13 +48,13 @@ If you have an understanding of how this could be done better, including loading
 Releases
 --------
 
-    - **0.1.0:** Initial release.
+ * **0.1.0:** Initial release.
 
 Contact
 -------
 
-This project is maintained by Jack Gutteridge. My email is [jack@kingbrick.co.uk].
-If you would prefer, other contact details can be found on my website [http://jng.me.uk/].
+This project is maintained by Jack Gutteridge. My email is jack@kingbrick.co.uk.
+If you would prefer, other contact details can be found on my website http://jng.me.uk/.
 
 Copyright
 ---------
